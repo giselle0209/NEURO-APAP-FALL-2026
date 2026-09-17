@@ -1,38 +1,73 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
 <HTML>
-  <HEAD>
-    <TITLE> NEURO-APAP Fall 2026 Retreat </TITLE>
+
+<HEAD>
+
+    <!-- CSS GOES HERE -->
     <STYLE type="text/css">
-      UL { 
-        background: LightGray; 
-        margin: 12px 12px 12px 12px;
-        padding: 3px 3px 3px 3px;
-                                     /* No borders set */
-      }
-      LI { 
-        color: black;                /* text color is black */ 
-        background: LightBlue;            /* Content, padding will be light blue */
-        margin: 12px 12px 12px 12px;
-        padding: 12px 0px 12px 12px; /* Note 0px padding right */
-        list-style: none             /* no glyphs before a list item */
-                                     /* No borders set */
-      }
-      LI.withborder {
-        border-style: dashed;
-        border-width: medium;        /* sets border width on all sides */
-        border-color: lime;
-      }
+
+        .page {
+            display: flex;
+        }
+
+        .menu {
+            width: 200px;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        UL { 
+            background: LightGray; 
+            width: 60%; 
+            margin: 20px auto;
+            padding: 3px;
+        }
+
+        LI { 
+            color: black;
+            background: LightBlue;
+            margin: 12px;
+            padding: 12px 0px 12px 12px;
+            list-style: none;
+        }
+
     </STYLE>
-  </HEAD>
-      <TITLE> Dr. Zeyan Liew </TITLE>
-  <BODY>
-    <UL>
-      <LI> Research & Interests <br>
-      **Dr. Liew adds description of work** <br>
-      Educational Background & Training <br>
-      **Dr. Liew adds description of educational background and training** <br>
-      Fun Fact <br>
-      **Dr. Liew adds fun personal fact**
-    </UL>
-  </BODY>
+
+</HEAD>
+
+
+<BODY>
+
+    <!-- THE ACTUAL STUFF ON YOUR PAGE GOES HERE -->
+
+    <div class="page">
+
+        <div class="menu">
+            Menu goes here
+        </div>
+
+
+        <div class="content">
+
+            <UL>
+                <LI>
+                    Research & Interests <br>
+                    **Dr. Liew adds description of work** <br>
+
+                    Educational Background & Training <br>
+                    **Dr. Liew adds description of educational background and training** <br>
+
+                    Fun Fact <br>
+                    **Dr. Liew adds fun personal fact**
+                </LI>
+            </UL>
+
+        </div>
+
+    </div>
+
+</BODY>
+
 </HTML>
